@@ -1,8 +1,8 @@
 #Question 1
 
-a=eval(input())
-s=(2**i for i in a)
-print(s)
+n = int(input("Enter a number: "))
+s = (2**i for i in range(n))
+print(list(s))
 
 #Question 2
 
